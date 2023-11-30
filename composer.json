@@ -16,7 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "AlphaRemote\\test\\PhpProject\\": "src/test/"
+            "AlphaRemote\\test\\PhpProject\\": "test/"
         }
     },
     "authors": [
@@ -25,5 +25,8 @@
             "email": "ronaldgraciel@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
 }

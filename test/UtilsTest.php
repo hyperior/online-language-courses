@@ -2,14 +2,15 @@
 
 namespace AlphaRemote\test\PhpProject;
 
+use AlphaRemote\PhpProject\helpers\Utils;
 use PHPUnit\Framework\TestCase;
 
-final class UtilLengthValidTest extends TestCase
+final class UtilsTest extends TestCase
 {
 
-    public function testArgumentValid(){
+    public function testReturnFalseWhenArgLenIsLessThanMin(){
 
-
+        $this->assertFalse(Utils::isArgValid('test',5));
 
     }
 
