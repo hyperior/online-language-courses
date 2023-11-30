@@ -10,7 +10,7 @@ if($key == 'search'){
 
     $controller = new Controller();
 
-    echo $controller->search($argv[2]);
+    echo $controller->search(strtolower($argv[2]));
 
 }else{
     echo "Primer argumento debe ser 'search'";
