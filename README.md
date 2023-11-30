@@ -5,10 +5,12 @@ aplicacion para curso de idiomas online que permite la busqueda de clases y exam
 ## Tecnología
 Aplicacion realizada en PHP bajo estandar PSR-2 con pruebas unitarias con PHPUnit
 
-## instalación
+## Instalación
 Para instalacion del proyecto necesitaras de composer y ejecutar el siguiente comando
 
   - composer install
+
+el .sql de la base de datos se encuentra en la carpeta src/databases
 
 ## Ejecución
 luego de instalada la aplicacion podras usarla con el siguiente comando 
